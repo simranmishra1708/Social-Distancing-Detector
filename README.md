@@ -28,3 +28,6 @@ For the sake of simplicity, our OpenCV social distancing detector implementation
 - Checking to see if any pairwise distances were < N pixels apart, and if so, indicating that the pair of people violated social distancing rules
 
 Furthermore, by using an NVIDIA CUDA-capable GPU, along with OpenCV’s dnn module compiled with NVIDIA GPU support, our method was able to run in real-time, making it usable as a proof-of-concept social distancing detector.
+
+#### Github usually doesn't support files larger than 25 Mb.You can find the yolo weights in [My google drive](https://drive.google.com/file/d/1QrGGrZl-K2z9IH410o9oeGvbKdIDjGIS/view?usp=sharing) 
+* Download it & move to yolo-coco folder.
