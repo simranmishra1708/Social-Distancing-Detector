@@ -7,11 +7,11 @@ Social distancing implies that people should physically distance themselves from
 ## Using OpenCV, computer vision, and deep learning for social distancing
 
 We can use OpenCV, computer vision, and deep learning to implement social distancing detectors.
-The steps to build a social distancing detector include:
+ The steps to build a social distancing detector include:
 
-1.Apply object detection to detect all people (and only people) in a video stream.
-2.Compute the pairwise distances between all detected people
-3.Based on these distances, check to see if any two people are less than N pixels apart
+1. Apply object detection to detect all people (and only people) in a video stream.
+2. Compute the pairwise distances between all detected people
+3. Based on these distances, check to see if any two people are less than N pixels apart
 
 For the most accurate results, we calibrate our camera through intrinsic/extrinsic parameters so that we can map pixels to measurable units.
 An easier alternative (but less accurate) method would be to apply triangle similarity calibration which is what I have applied.
